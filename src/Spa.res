@@ -1,13 +1,21 @@
-@genType.import(("@codegouvfr/react-dsfr/spa", "RegisterLink"))
-type registerLink
+@genType.opaque
+type undefined
 
-@genType
-type startReactDsfrParams<'props> = {
+external linkPropsToUndefined: 'props => undefined = "%identity"
+
+type startReactDsfrParams<'link> = {
   defaultColorScheme: [#light | #dark | #system],
   verbose?: bool,
-  @as("Link") link: 'props => React.element,
+  @as("Link") link?: 'link,
   useLang?: unit => [#fr | #en],
+  nonce?: string,
+  trustedTypesPolicyName?: string,
 }
 
 @genType.import("@codegouvfr/react-dsfr/spa")
-external startReactDsfr: startReactDsfrParams<'props> => unit = "startReactDsfr"
+external _startReactDsfr: startReactDsfrParams<undefined> => unit = "startReactDsfr"
+
+let startReactDsfr = params => {
+  // Sheaningans to allow passing undefined as a link prop as inferred by TypeScript
+  _startReactDsfr({...params, link: linkPropsToUndefined(params.link)})
+}
