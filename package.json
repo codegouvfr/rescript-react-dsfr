@@ -1,0 +1,31 @@
+{
+    "name": "@codegouvfr/rescript-react-dsfr",
+    "description": "ReScript bindings for react-dsfr",
+    "version": "0.1.0",
+    "scripts": {
+        "clean": "rescript clean",
+        "build": "rescript build -with-deps",
+        "watch": "rescript build -w -with-deps",
+        "typecheck": "tsc"
+    },
+    "keywords": [
+        "rescript",
+        "dsfr",
+        "rescript-bindings",
+        "react-dsfr",
+        "design-system"
+    ],
+    "author": "Emile Rolley <emile.rolley@tuta.io>",
+    "license": "MIT",
+    "dependencies": {
+        "@codegouvfr/react-dsfr": "^1.0.4",
+        "@rescript/react": "^0.11.0",
+        "react": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.47",
+        "rescript": "^10.1.4",
+        "tsc": "^2.0.4",
+        "typescript": "^5.3.3"
+    }
+}

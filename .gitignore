@@ -1,0 +1,5 @@
+node_modules
+lib/bs
+*.bs.js
+*.gen.tsx
+lib/ocaml
