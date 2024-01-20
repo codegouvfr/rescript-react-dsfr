@@ -17,7 +17,7 @@
 
 </div>
 
-> [!INFO]
+> [!IMPORTANT]
 > This project has only been tested for the needs of the
 > [`catala-dsfr`](https://github.com/CatalaLang/catala-dsfr) project.
 
@@ -97,41 +97,40 @@ let button = (
 
 | Component             | Status |
 | ---------             | :----: |
-| `startReactDsfr`      | ✅     |
 | `Accordion`           | ✅     |
-| `Badge`               | ✅     |
-| `Header`              | ❌     |
-| `Footer`              | ❌     |
-| `consentManagement`   | ❌     |
+| `AgentConnectButton`  | ✅     |
 | `Alert`               | ❌     |
-| `Tabs`                | ❌     |
-| `Stepper`             | ❌     |
+| `Badge`               | ✅     |
+| `Breadcrumb`          | ❌     |
 | `Button`              | ❌     |
 | `ButtonsGroup`        | ❌     |
-| `FranceConnectButton` | ❌     |
-| `AgentConnectButton`  | ❌     |
-| `MonCompteProButton`  | ❌     |
-| `Breadcrumb`          | ❌     |
 | `Callout`             | ❌     |
 | `Card`                | ❌     |
 | `Checkbox`            | ❌     |
+| `consentManagement`   | ❌     |
 | `Display`             | ❌     |
 | `Download`            | ❌     |
+| `Footer`              | ❌     |
+| `FranceConnectButton` | ❌     |
+| `Header`              | ❌     |
 | `Highlight`           | ❌     |
 | `Input`               | ❌     |
 | `MainNavigation`      | ❌     |
 | `Modal`               | ❌     |
+| `MonCompteProButton`  | ❌     |
 | `Pagination`          | ❌     |
+| `PasswordInput`       | ❌     |
 | `Quote`               | ❌     |
 | `RadioButtons`        | ❌     |
 | `SearchBar`           | ❌     |
 | `Select`              | ❌     |
 | `SelectNext`          | ❌     |
 | `SlideMenu`           | ❌     |
+| `Stepper`             | ❌     |
 | `Table`               | ❌     |
+| `Tabs`                | ❌     |
 | `Tag`                 | ❌     |
 | `Tile`                | ❌     |
 | `ToggleSwitch`        | ❌     |
 | `ToggleSwitchGroup`   | ❌     |
 | `Upload`              | ❌     |
-| `PasswordInput`       | ❌     |

@@ -14,5 +14,7 @@ let make = () => {
     {Badge.demo}
     {sep}
     {Accordion.demo}
+    {sep}
+    {AgentConnectButton.demo}
   </div>
 }
