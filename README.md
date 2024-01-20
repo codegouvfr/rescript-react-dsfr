@@ -53,28 +53,32 @@ DSFR.Spa.startReactDsfr({
 
 ### Use a component
 
+The API should be straightforward to use as it try to match as closely as
+possible the original API. At the difference that constants strings are
+replaced by polymorphic variants and that reserved keywords in ReScript like
+`type` or `as` are suffixed with an `_` (e.g. `type_` or `as_`).
+
+For example, for the `Badge` component:
 ```typescript
 // In a .tsx file
 
-import { Button } from '@codegouvfr/react-dsfr'
+import { Badge } from '@codegouvfr/react-dsfr/badge'
 
 let button = (
-    <Button
-        onClick={e => console.log(e)} 
-        />
-        Click me
-    </Button>
+    <Badge type="info" as="span" noIcon={true} severity="new">
+       Nouveau 
+    </Badge>
 )
 ```
 
 ```rescript
+open DSFR
+
 // In a .res file
 let button = (
-    <DSFR.Button
-        onClick={e => Console.log(e)} 
-        />
-        {React.string("Click me")}
-    </DSFR.Button>
+    <Badge type=#info as_=#span noIcon=true severity=#new>
+        {React.string("Nouveau")}
+    </Badge>
 )
 ```
 
@@ -95,6 +99,7 @@ let button = (
 | ---------             | :----: |
 | `startReactDsfr`      | ✅     |
 | `Accordion`           | ✅     |
+| `Badge`               | ✅     |
 | `Header`              | ❌     |
 | `Footer`              | ❌     |
 | `consentManagement`   | ❌     |
@@ -106,8 +111,6 @@ let button = (
 | `FranceConnectButton` | ❌     |
 | `AgentConnectButton`  | ❌     |
 | `MonCompteProButton`  | ❌     |
-| `Accordion`           | ❌     |
-| `Badge`               | ❌     |
 | `Breadcrumb`          | ❌     |
 | `Callout`             | ❌     |
 | `Card`                | ❌     |
