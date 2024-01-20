@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@codegouvfr/react-dsfr@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@codegouvfr/react-dsfr/-/react-dsfr-1.0.4.tgz#f3877a566aed7c7602cde897f92b7752fc2f8b5f"
-  integrity sha512-OJE73kgd8YLC6OUATTIl14ZLZAq42o5sTEcUsUG9Pn9whu+yUIDsJV0npJBhjm17uxZ0lwcLVqXcXGSEw5S9zw==
+"@codegouvfr/react-dsfr@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@codegouvfr/react-dsfr/-/react-dsfr-1.2.1.tgz#19b705163719de9b3d8ef94882a6e0aae8eb442c"
+  integrity sha512-8TIQc9IObRGe/qfD0cPqHZM2vmLmIw0AVvIbEY9P+16vZijLxshXWNZlNlyupMxNlIs5MRrfsJVaRiGru+r20A==
   dependencies:
     tsafe "^1.6.3"
 
