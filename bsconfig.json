@@ -1,6 +1,5 @@
 {
     "name": "@codegouvfr/rescript-react-dsfr",
-    "namespace": "ReactDSFR",
     "version": "0.1.0",
     "sources": [
         {
@@ -17,15 +16,5 @@
     "suffix": ".bs.js",
     "refmt": 3,
     "jsx": { "version": 4, "mode": "classic" },
-    "bs-dependencies": ["@rescript/react"],
-    "gentypeconfig": {
-        "language": "typescript",
-        "shims": {},
-        "generatedFileExtension": ".gen.tsx",
-        "module": "es6",
-        "debug": {
-            "all": false,
-            "basic": false
-        }
-    }
+    "bs-dependencies": ["@rescript/react"]
 }
