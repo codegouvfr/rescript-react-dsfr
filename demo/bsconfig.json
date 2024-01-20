@@ -1,0 +1,20 @@
+{
+    "name": "rescript-react-dsfr-demo",
+    "sources": {
+        "dir": "src",
+        "subdirs": true
+    },
+    "package-specs": {
+        "module": "es6",
+        "in-source": true
+    },
+    "suffix": ".bs.js",
+    "jsx": { "version": 4, "mode": "classic" },
+    "bs-dependencies": [
+        "@codegouvfr/rescript-react-dsfr",
+        "@rescript/core",
+        "@rescript/react"
+    ],
+    "bsc-flags": ["-open RescriptCore"],
+    "ppx-flags": []
+}
