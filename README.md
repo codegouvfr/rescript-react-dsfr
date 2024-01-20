@@ -18,7 +18,7 @@
 </div>
 
 > [!IMPORTANT]
-> This project has only been tested for the needs of the
+> This project is a WIP and has only been tested for the needs of the
 > [`catala-dsfr`](https://github.com/CatalaLang/catala-dsfr) project.
 
 ## Installation
