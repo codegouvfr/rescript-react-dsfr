@@ -108,7 +108,7 @@ let button = (
 | `Card`                | ✅     |
 | `Checkbox`            | ❌     |
 | `consentManagement`   | ❌     |
-| `Display`             | ❌     |
+| `Display`             | 🚧     |
 | `Download`            | ❌     |
 | `Footer`              | ✅     |
 | `FranceConnectButton` | ❌     |
@@ -118,13 +118,14 @@ let button = (
 | `MainNavigation`      | ❌     |
 | `Modal`               | ❌     |
 | `MonCompteProButton`  | ❌     |
+| `Notice`              | 🚧     |
 | `Pagination`          | ❌     |
 | `PasswordInput`       | ❌     |
 | `Quote`               | ❌     |
 | `RadioButtons`        | ❌     |
 | `SearchBar`           | ❌     |
-| `Select`              | ❌     |
-| `SelectNext`          | ❌     |
+| `Select`              | 🚧     |
+| `SelectNext`          | 🚧     |
 | `SlideMenu`           | ❌     |
 | `Stepper`             | ❌     |
 | `Table`               | ❌     |
