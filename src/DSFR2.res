@@ -5,6 +5,6 @@ module Accordion = DSFR__Accordion
 module Button = DSFR__Button
 module ButtonsGroup = DSFR__ButtonsGroup
 module Badge = DSFR__Badge
-module Header = DSFR__Header
+module CallOut = DSFR__CallOut
 
 module Commons = DSFR__Commons

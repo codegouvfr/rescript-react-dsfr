@@ -20,5 +20,7 @@ let make = () => {
     {Button.demo}
     {sep}
     {ButtonsGroup.demo}
+    {sep}
+    {CallOut.demo}
   </div>
 }
