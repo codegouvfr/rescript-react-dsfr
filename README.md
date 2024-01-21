@@ -110,7 +110,7 @@ let button = (
 | `consentManagement`   | ❌     |
 | `Display`             | ❌     |
 | `Download`            | ❌     |
-| `Footer`              | ❌     |
+| `Footer`              | ✅     |
 | `FranceConnectButton` | ❌     |
 | `Header`              | ✅     |
 | `Highlight`           | ❌     |

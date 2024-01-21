@@ -42,3 +42,18 @@ module NavigationProps = {
     megaMenu?: megaMenu,
   }
 }
+
+module Headers = {
+  type operatorLogo = {
+    alt: string,
+    imgUrl: string,
+    orientation: [#horizontal | #vertical],
+  }
+  // FIXME: could also be a React.element
+  type quickAccessItem = {
+    iconId: DSFR__ClassNames.iconId,
+    text: React.element,
+    linkProps?: linkProps,
+    buttonProps?: buttonProps,
+  }
+}

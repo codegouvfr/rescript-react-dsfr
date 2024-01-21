@@ -8,5 +8,6 @@ module Badge = DSFR__Badge
 module CallOut = DSFR__CallOut
 module Card = DSFR__Card
 module Header = DSFR__Header
+module Footer = DSFR__Footer
 
 module Commons = DSFR__Commons

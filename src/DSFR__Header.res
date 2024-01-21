@@ -1,8 +1,4 @@
-type operatorLogo = {
-  alt: string,
-  imgUrl: string,
-  orientation: [#horizontal | #vertical],
-}
+open DSFR__Commons
 
 type readerSearchInputParams = {
   id: string,
@@ -11,24 +7,16 @@ type readerSearchInputParams = {
   @as("type") type_: [#search],
 }
 
-// FIXME: could also be a React.element
-type quickAccessItems = {
-  iconId: DSFR__ClassNames.iconId,
-  text: React.element,
-  linkProps?: DSFR__Commons.linkProps,
-  buttonProps?: DSFR__Commons.buttonProps,
-}
-
 @react.component @module("@codegouvfr/react-dsfr/Header")
 external make: (
   ~brandTop: React.element,
-  ~homeLinkProps: DSFR__Commons.linkProps,
+  ~homeLinkProps: linkProps,
   ~serviceTitle: React.element=?,
   ~serviceTagline: React.element=?,
   // FIXME: could also be a React.element
-  ~navigation: array<DSFR__Commons.NavigationProps.t>=?,
-  ~quickAccessItems: array<quickAccessItems>=?,
-  ~operatorLogo: operatorLogo=?,
+  ~navigation: array<NavigationProps.t>=?,
+  ~quickAccessItems: array<Headers.quickAccessItem>=?,
+  ~operatorLogo: Headers.operatorLogo=?,
   ~renderSearchInput: React.component<readerSearchInputParams>=?,
   ~onSearchButtonClick: string => unit=?,
   ~id: string=?,
