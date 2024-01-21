@@ -1,27 +1,30 @@
 {
-  "name": "@codegouvfr/rescript-react-dsfr",
-  "description": "ReScript bindings for react-dsfr",
-  "version": "0.1.0",
-  "scripts": {
-    "clean": "rescript clean",
-    "build": "rescript build -with-deps",
-    "watch": "rescript build -w -with-deps"
-  },
-  "keywords": [
-    "rescript",
-    "dsfr",
-    "rescript-bindings",
-    "react-dsfr",
-    "design-system"
-  ],
-  "author": "Emile Rolley <emile.rolley@tuta.io>",
-  "license": "MIT",
-  "dependencies": {
-    "@codegouvfr/react-dsfr": "^1.2.1",
-    "@rescript/react": "^0.11.0",
-    "react": "^18.2.0"
-  },
-  "devDependencies": {
-    "rescript": "^10.1.4"
-  }
+    "name": "@codegouvfr/rescript-react-dsfr",
+    "description": "ReScript bindings for react-dsfr",
+    "version": "0.1.0",
+    "scripts": {
+        "clean": "rescript clean",
+        "build": "rescript build -with-deps",
+        "watch": "rescript build -w -with-deps",
+        "generate-icon": "bun scripts/generateIcon.ts",
+        "postinstall": "yarn run generate-icon"
+    },
+    "keywords": [
+        "rescript",
+        "dsfr",
+        "rescript-bindings",
+        "react-dsfr",
+        "design-system"
+    ],
+    "author": "Emile Rolley <emile.rolley@tuta.io>",
+    "license": "MIT",
+    "dependencies": {
+        "@codegouvfr/react-dsfr": "^1.2.1",
+        "@rescript/react": "^0.11.0",
+        "react": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/bun": "^1.0.3",
+        "rescript": "^10.1.4"
+    }
 }

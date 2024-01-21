@@ -134,3 +134,18 @@ let button = (
 | `ToggleSwitch`        | ❌     |
 | `ToggleSwitchGroup`   | ❌     |
 | `Upload`              | ❌     |
+
+## Scripts
+
+Polymorphic variants for icons (`./src/DSFR__Icon.res`) are generated from 
+the `@codegouvfr/react-dsfr` source code. To update them, run:
+
+```sh
+yarn generate-icon
+
+# or it will be run automatically when installing the package
+yarn 
+```
+> [!IMPORTANT]
+> This script is run with [`bun`](https://bun.sh/) and it can be installed with
+> `yarn` so you need to install it manually if you don't have it
