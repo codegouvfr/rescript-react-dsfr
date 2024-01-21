@@ -15,6 +15,7 @@ let toTest = [
   ButtonsGroup.demo,
   CallOut.demo,
   Card.demo,
+  Header.demo,
 ]
 
 @react.component
