@@ -4,56 +4,56 @@ let demo = {
   <div className="fr-col-12">
     <h2> {React.string("Badge")} </h2>
     <div className="fr-grid-row">
-      <Badge className="fr-mr-1w"> {React.string("Default")} </Badge>
-      <Badge className="fr-mr-1w" severity=#success> {React.string("Success")} </Badge>
-      <Badge className="fr-mr-1w" severity=#info> {React.string("Info")} </Badge>
-      <Badge className="fr-mr-1w" severity=#warning> {React.string("Warning")} </Badge>
-      <Badge className="fr-mr-1w" severity=#error> {React.string("Error")} </Badge>
-      <Badge className="fr-mr-1w" severity=#new> {React.string("New")} </Badge>
+      <Badge className=Layout.base> {React.string("Default")} </Badge>
+      <Badge className=Layout.base severity=#success> {React.string("Success")} </Badge>
+      <Badge className=Layout.base severity=#info> {React.string("Info")} </Badge>
+      <Badge className=Layout.base severity=#warning> {React.string("Warning")} </Badge>
+      <Badge className=Layout.base severity=#error> {React.string("Error")} </Badge>
+      <Badge className=Layout.base severity=#new> {React.string("New")} </Badge>
     </div>
-    <div className="fr-grid-row fr-pt-2w">
-      <Badge className="fr-mr-1w" noIcon=true> {React.string("Default")} </Badge>
-      <Badge className="fr-mr-1w" noIcon=true severity=#success> {React.string("Success")} </Badge>
-      <Badge className="fr-mr-1w" noIcon=true severity=#info> {React.string("Info")} </Badge>
-      <Badge className="fr-mr-1w" noIcon=true severity=#warning> {React.string("Warning")} </Badge>
-      <Badge className="fr-mr-1w" noIcon=true severity=#error> {React.string("Error")} </Badge>
-      <Badge className="fr-mr-1w" noIcon=true severity=#new> {React.string("New")} </Badge>
+    <div className="fr-grid-row">
+      <Badge className=Layout.base noIcon=true> {React.string("Default")} </Badge>
+      <Badge className=Layout.base noIcon=true severity=#success> {React.string("Success")} </Badge>
+      <Badge className=Layout.base noIcon=true severity=#info> {React.string("Info")} </Badge>
+      <Badge className=Layout.base noIcon=true severity=#warning> {React.string("Warning")} </Badge>
+      <Badge className=Layout.base noIcon=true severity=#error> {React.string("Error")} </Badge>
+      <Badge className=Layout.base noIcon=true severity=#new> {React.string("New")} </Badge>
     </div>
-    <div className="fr-grid-row fr-pt-2w">
-      <Badge className="fr-mr-1w" small=true noIcon=true> {React.string("Default")} </Badge>
-      <Badge className="fr-mr-1w" small=true noIcon=true severity=#success>
+    <div className="fr-grid-row ">
+      <Badge className=Layout.base small=true noIcon=true> {React.string("Default")} </Badge>
+      <Badge className=Layout.base small=true noIcon=true severity=#success>
         {React.string("Success")}
       </Badge>
-      <Badge className="fr-mr-1w" small=true noIcon=true severity=#info>
+      <Badge className=Layout.base small=true noIcon=true severity=#info>
         {React.string("Info")}
       </Badge>
-      <Badge className="fr-mr-1w" small=true noIcon=true severity=#warning>
+      <Badge className=Layout.base small=true noIcon=true severity=#warning>
         {React.string("Warning")}
       </Badge>
-      <Badge className="fr-mr-1w" small=true noIcon=true severity=#error>
+      <Badge className=Layout.base small=true noIcon=true severity=#error>
         {React.string("Error")}
       </Badge>
-      <Badge className="fr-mr-1w" small=true noIcon=true severity=#new>
+      <Badge className=Layout.base small=true noIcon=true severity=#new>
         {React.string("New")}
       </Badge>
     </div>
-    <div className="fr-grid-row fr-pt-2w">
-      <Badge className="fr-mr-1w" as_=#span small=true noIcon=true>
+    <div className="fr-grid-row ">
+      <Badge className=Layout.base as_=#span small=true noIcon=true>
         {React.string("Default")}
       </Badge>
-      <Badge className="fr-mr-1w" as_=#span small=true noIcon=true severity=#success>
+      <Badge className=Layout.base as_=#span small=true noIcon=true severity=#success>
         {React.string("Success")}
       </Badge>
-      <Badge className="fr-mr-1w" as_=#span small=true noIcon=true severity=#info>
+      <Badge className=Layout.base as_=#span small=true noIcon=true severity=#info>
         {React.string("Info")}
       </Badge>
-      <Badge className="fr-mr-1w" as_=#span small=true noIcon=true severity=#warning>
+      <Badge className=Layout.base as_=#span small=true noIcon=true severity=#warning>
         {React.string("Warning")}
       </Badge>
-      <Badge className="fr-mr-1w" as_=#span small=true noIcon=true severity=#error>
+      <Badge className=Layout.base as_=#span small=true noIcon=true severity=#error>
         {React.string("Error")}
       </Badge>
-      <Badge className="fr-mr-1w" as_=#span small=true noIcon=true severity=#new>
+      <Badge className=Layout.base as_=#span small=true noIcon=true severity=#new>
         {React.string("New")}
       </Badge>
     </div>

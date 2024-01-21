@@ -11,10 +11,12 @@ let sep =
 let make = () => {
   <div className="fr-container">
     <h1> {React.string("Demo - rescript-react-dsfr")} </h1>
-    {Badge.demo}
-    {sep}
     {Accordion.demo}
     {sep}
     {AgentConnectButton.demo}
+    {sep}
+    {Badge.demo}
+    {sep}
+    {Button.demo}
   </div>
 }

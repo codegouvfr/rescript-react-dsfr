@@ -4,7 +4,7 @@ let demo = {
   <div className="fr-col-12">
     <h2> {React.string("Accordion")} </h2>
     <div className="fr-grid">
-      <div className="fr-pb-2w">
+      <div className=Layout.base>
         <Accordion label={React.string("Accordion - Default")}>
           <p>
             {React.string(
@@ -13,7 +13,7 @@ let demo = {
           </p>
         </Accordion>
       </div>
-      <div className="fr-pb-2w">
+      <div className=Layout.base>
         <Accordion label={React.string("Accordion - Default expanded")} defaultExpanded=true>
           <p>
             {React.string(
@@ -22,7 +22,7 @@ let demo = {
           </p>
         </Accordion>
       </div>
-      <div className="fr-pb-2w">
+      <div className=Layout.base>
         <Accordion label={React.string("Accordion - Title as h2")} titleAs=#h2>
           <p>
             {React.string(
