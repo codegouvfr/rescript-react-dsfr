@@ -103,7 +103,7 @@ let button = (
 | `Badge`               | ✅     |
 | `Breadcrumb`          | ❌     |
 | `Button`              | ✅     |
-| `ButtonsGroup`        | ❌     |
+| `ButtonsGroup`        | ✅     |
 | `Callout`             | ❌     |
 | `Card`                | ❌     |
 | `Checkbox`            | ❌     |
