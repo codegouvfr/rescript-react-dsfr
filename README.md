@@ -38,7 +38,9 @@ Then add it to `bsconfig.json`:
 ## Usage
 
 > [!TIP]
-> You can find a real-world example in the
+> You can look a the [demo web
+> app](https://github.com/codegouvfr/rescript-react-dsfr/tree/main/demo) or at
+> a real-world example in the
 > [`catala-dsfr`](https://github.com/CatalaLang/catala-dsfr) repository.
 
 ### Start a DSFR app
