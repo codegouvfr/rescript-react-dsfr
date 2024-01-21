@@ -6,5 +6,6 @@ module Button = DSFR__Button
 module ButtonsGroup = DSFR__ButtonsGroup
 module Badge = DSFR__Badge
 module CallOut = DSFR__CallOut
+module Card = DSFR__Card
 
 module Commons = DSFR__Commons

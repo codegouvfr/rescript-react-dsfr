@@ -7,20 +7,25 @@ let sep =
     </div>
   </div>
 
+let toTest = [
+  Accordion.demo,
+  AgentConnectButton.demo,
+  Badge.demo,
+  Button.demo,
+  ButtonsGroup.demo,
+  CallOut.demo,
+  Card.demo,
+]
+
 @react.component
 let make = () => {
   <div className="fr-container">
     <h1> {React.string("Demo - rescript-react-dsfr")} </h1>
-    {Accordion.demo}
-    {sep}
-    {AgentConnectButton.demo}
-    {sep}
-    {Badge.demo}
-    {sep}
-    {Button.demo}
-    {sep}
-    {ButtonsGroup.demo}
-    {sep}
-    {CallOut.demo}
+    {toTest
+    ->Array.map(c => <>
+      {sep}
+      {c}
+    </>)
+    ->React.array}
   </div>
 }

@@ -105,7 +105,7 @@ let button = (
 | `Button`              | ✅     |
 | `ButtonsGroup`        | ✅     |
 | `Callout`             | ✅     |
-| `Card`                | ❌     |
+| `Card`                | ✅     |
 | `Checkbox`            | ❌     |
 | `consentManagement`   | ❌     |
 | `Display`             | ❌     |
