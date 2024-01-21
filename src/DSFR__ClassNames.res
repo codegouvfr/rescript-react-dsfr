@@ -1,4 +1,4 @@
-type id = [
+type iconId = [
   | #"fr-icon-ancient-gate-fill"
   | #"fr-icon-ancient-gate-line"
   | #"fr-icon-ancient-pavilion-fill"
@@ -3145,4 +3145,24 @@ type id = [
   | #"ri-water-percent-line"
   | #"ri-windy-fill"
   | #"ri-windy-line"
+]
+
+type calloutColorVariant = [
+  | #"green-tilleul-verveine"
+  | #"green-bourgeon"
+  | #"green-emeraude"
+  | #"green-menthe"
+  | #"green-archipel"
+  | #"blue-ecume"
+  | #"blue-cumulus"
+  | #"purple-glycine"
+  | #"pink-macaron"
+  | #"pink-tuile"
+  | #"yellow-tournesol"
+  | #"yellow-moutarde"
+  | #"orange-terre-battue"
+  | #"brown-cafe-creme"
+  | #"brown-caramel"
+  | #"brown-opera"
+  | #"beige-gris-galet"
 ]

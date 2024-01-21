@@ -6,8 +6,8 @@
         "clean": "rescript clean",
         "build": "rescript build -with-deps",
         "watch": "rescript build -w -with-deps",
-        "generate-icon": "bun scripts/generateIcon.ts",
-        "postinstall": "yarn run generate-icon"
+        "generate-classNames": "bun scripts/generateClassNames.ts",
+        "postinstall": "yarn run generate-classNames"
     },
     "keywords": [
         "rescript",

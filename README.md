@@ -104,7 +104,7 @@ let button = (
 | `Breadcrumb`          | ❌     |
 | `Button`              | ✅     |
 | `ButtonsGroup`        | ✅     |
-| `Callout`             | ❌     |
+| `Callout`             | ✅     |
 | `Card`                | ❌     |
 | `Checkbox`            | ❌     |
 | `consentManagement`   | ❌     |
@@ -137,11 +137,12 @@ let button = (
 
 ## Scripts
 
-Polymorphic variants for icons (`./src/DSFR__Icon.res`) are generated from 
-the `@codegouvfr/react-dsfr` source code. To update them, run:
+Polymorphic variants for class names `./src/DSFR__ClassNames.res` (such as
+icon's id or color variants) are generated from the `@codegouvfr/react-dsfr`
+source code. To update them, run:
 
 ```sh
-yarn generate-icon
+yarn generate-classNames
 
 # or it will be run automatically when installing the package
 yarn 
