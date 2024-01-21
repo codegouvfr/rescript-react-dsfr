@@ -102,7 +102,7 @@ let button = (
 | `Alert`               | ❌     |
 | `Badge`               | ✅     |
 | `Breadcrumb`          | ❌     |
-| `Button`              | ❌     |
+| `Button`              | ✅     |
 | `ButtonsGroup`        | ❌     |
 | `Callout`             | ❌     |
 | `Card`                | ❌     |
