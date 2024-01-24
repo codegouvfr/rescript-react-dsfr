@@ -10,15 +10,16 @@ let sep =
 let toTest = [
   Accordion.demo,
   AgentConnectButton.demo,
+  Alert.demo,
   Badge.demo,
   Button.demo,
   ButtonsGroup.demo,
   CallOut.demo,
   Card.demo,
-  Header.demo,
-  Footer.demo,
-  Notice.demo,
   Display.demo,
+  Footer.demo,
+  Header.demo,
+  Notice.demo,
 ]
 
 @react.component

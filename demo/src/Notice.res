@@ -2,7 +2,7 @@ open DSFR2
 
 let demo = {
   <div className="fr-container">
-    <h2> {React.string("CallOut")} </h2>
+    <h2> {React.string("Notice")} </h2>
     <div className="fr-grid-row">
       <Notice
         className="fr-col-12 fr-mb-2w"

@@ -101,7 +101,7 @@ let button = (
 | ---------             | :----: |
 | `Accordion`           | ✅     |
 | `AgentConnectButton`  | ✅     |
-| `Alert`               | ❌     |
+| `Alert`               | ✅     |
 | `Badge`               | ✅     |
 | `Breadcrumb`          | ❌     |
 | `Button`              | ✅     |
