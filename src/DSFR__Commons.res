@@ -52,8 +52,8 @@ module Headers = {
 
   // FIXME: could also be a React.element
   type quickAccessItem = {
-    iconId: DSFR__ClassNames.iconId,
     text: React.element,
+    iconId?: DSFR__ClassNames.iconId,
     linkProps?: linkProps,
     buttonProps?: buttonProps,
   }

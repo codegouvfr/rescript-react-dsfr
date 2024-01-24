@@ -1,4 +1,4 @@
-open DSFR2
+open DSFR
 
 let demo = {
   let className = `fr-col ${Layout.base}`

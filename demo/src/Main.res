@@ -1,6 +1,6 @@
 %%raw(`import "./css/index.css";`)
 
-DSFR2.Spa.startReactDsfr({
+DSFR.Spa.startReactDsfr({
   defaultColorScheme: #system,
   useLang: () => #fr,
 })
