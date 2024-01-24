@@ -110,7 +110,7 @@ let button = (
 | `Card`                | ✅     |
 | `Checkbox`            | ❌     |
 | `consentManagement`   | ❌     |
-| `Display`             | 🚧     |
+| `Display`             | ✅     |
 | `Download`            | ❌     |
 | `Footer`              | ✅     |
 | `FranceConnectButton` | ❌     |
@@ -126,8 +126,8 @@ let button = (
 | `Quote`               | ❌     |
 | `RadioButtons`        | ❌     |
 | `SearchBar`           | ❌     |
-| `Select`              | 🚧     |
-| `SelectNext`          | 🚧     |
+| `Select`              | ❌     |
+| `SelectNext`          | ❌     |
 | `SlideMenu`           | ❌     |
 | `Stepper`             | ❌     |
 | `Table`               | ❌     |

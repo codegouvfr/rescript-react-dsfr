@@ -10,5 +10,6 @@ module Card = DSFR__Card
 module Footer = DSFR__Footer
 module Header = DSFR__Header
 module Notice = DSFR__Notice
+module Display = DSFR__Display
 
 module Commons = DSFR__Commons

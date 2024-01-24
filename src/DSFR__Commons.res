@@ -49,6 +49,7 @@ module Headers = {
     imgUrl: string,
     orientation: [#horizontal | #vertical],
   }
+
   // FIXME: could also be a React.element
   type quickAccessItem = {
     iconId: DSFR__ClassNames.iconId,

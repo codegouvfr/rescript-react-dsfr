@@ -18,6 +18,7 @@ let toTest = [
   Header.demo,
   Footer.demo,
   Notice.demo,
+  Display.demo,
 ]
 
 @react.component
