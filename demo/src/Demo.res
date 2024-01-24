@@ -21,6 +21,7 @@ let toTest = [
   Footer.demo,
   FranceConnectButton.demo,
   Header.demo,
+  MonCompteProButton.demo,
   Notice.demo,
 ]
 

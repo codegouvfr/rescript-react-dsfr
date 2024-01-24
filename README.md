@@ -119,7 +119,7 @@ let button = (
 | `Input`               | ❌     |
 | `MainNavigation`      | ❌     |
 | `Modal`               | ❌     |
-| `MonCompteProButton`  | ❌     |
+| `MonCompteProButton`  | ✅     |
 | `Notice`              | ✅     |
 | `Pagination`          | ❌     |
 | `PasswordInput`       | ❌     |
