@@ -1,7 +1,7 @@
 {
     "name": "@codegouvfr/rescript-react-dsfr",
     "description": "ReScript bindings for react-dsfr",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "scripts": {
         "clean": "rescript clean",
         "build": "rescript build -with-deps",
