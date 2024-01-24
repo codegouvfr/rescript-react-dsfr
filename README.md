@@ -84,6 +84,23 @@ let button = (
 )
 ```
 
+## Scripts
+
+Polymorphic variants for class names `./src/DSFR__ClassNames.res` (such as
+icon's id or color variants) are generated from the `@codegouvfr/react-dsfr`
+source code. To update them, run:
+
+```sh
+yarn generate-classNames
+
+# or it will be run automatically when installing the package
+yarn 
+```
+
+> [!IMPORTANT]
+> This script is run with [`bun`](https://bun.sh/) and it can be installed with
+> `yarn` so you need to install it manually if you don't have it
+
 ## Status
 
 > [!WARNING]
@@ -137,19 +154,3 @@ let button = (
 | `ToggleSwitch`        | ❌     |
 | `ToggleSwitchGroup`   | ❌     |
 | `Upload`              | ❌     |
-
-## Scripts
-
-Polymorphic variants for class names `./src/DSFR__ClassNames.res` (such as
-icon's id or color variants) are generated from the `@codegouvfr/react-dsfr`
-source code. To update them, run:
-
-```sh
-yarn generate-classNames
-
-# or it will be run automatically when installing the package
-yarn 
-```
-> [!IMPORTANT]
-> This script is run with [`bun`](https://bun.sh/) and it can be installed with
-> `yarn` so you need to install it manually if you don't have it
