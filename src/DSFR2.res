@@ -6,6 +6,7 @@ module Commons = DSFR__Commons
 
 module Accordion = DSFR__Accordion
 module AgentConnectButton = DSFR__AgentConnectButton
+module FranceConnectButton = DSFR__FranceConnectButton
 module Alert = DSFR__Alert
 module Badge = DSFR__Badge
 module Button = DSFR__Button

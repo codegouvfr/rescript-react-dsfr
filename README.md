@@ -113,7 +113,7 @@ let button = (
 | `Display`             | ✅     |
 | `Download`            | ❌     |
 | `Footer`              | ✅     |
-| `FranceConnectButton` | ❌     |
+| `FranceConnectButton` | ✅     |
 | `Header`              | ✅     |
 | `Highlight`           | ❌     |
 | `Input`               | ❌     |
