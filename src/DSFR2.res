@@ -10,6 +10,7 @@ module Alert = DSFR__Alert
 module Badge = DSFR__Badge
 module Button = DSFR__Button
 module ButtonsGroup = DSFR__ButtonsGroup
+module Breadcrumb = DSFR__Breadcrumb
 module CallOut = DSFR__CallOut
 module Card = DSFR__Card
 module Display = DSFR__Display

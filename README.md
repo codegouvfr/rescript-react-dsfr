@@ -103,7 +103,7 @@ let button = (
 | `AgentConnectButton`  | ✅     |
 | `Alert`               | ✅     |
 | `Badge`               | ✅     |
-| `Breadcrumb`          | ❌     |
+| `Breadcrumb`          | ✅     |
 | `Button`              | ✅     |
 | `ButtonsGroup`        | ✅     |
 | `Callout`             | ✅     |

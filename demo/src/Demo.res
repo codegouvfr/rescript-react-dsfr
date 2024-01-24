@@ -14,6 +14,7 @@ let toTest = [
   Badge.demo,
   Button.demo,
   ButtonsGroup.demo,
+  Breadcrumb.demo,
   CallOut.demo,
   Card.demo,
   Display.demo,
