@@ -6,6 +6,7 @@
         "clean": "rescript clean",
         "build": "rescript build -with-deps",
         "watch": "rescript build -w -with-deps",
+        "demo": "yarn --cwd demo dev",
         "generate-classNames": "bun scripts/generateClassNames.ts",
         "postinstall": "yarn run generate-classNames"
     },

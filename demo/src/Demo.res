@@ -17,6 +17,7 @@ let toTest = [
   Card.demo,
   Header.demo,
   Footer.demo,
+  Notice.demo,
 ]
 
 @react.component
