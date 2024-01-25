@@ -27,5 +27,8 @@
     "devDependencies": {
         "@types/bun": "^1.0.3",
         "rescript": "^10.1.4"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
