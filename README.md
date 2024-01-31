@@ -84,6 +84,21 @@ let button = (
 )
 ```
 
+### Use the `cx` function
+
+The `DSFR.Fr.cx` function is used to generate class names from an array of
+variants. It allows to type check the class names and provides suggestions
+from you IDE.
+
+```rescript
+open DSFR
+
+let e = 
+    <div className={Fr.cx([#"fr-grid-row", #"fr-grid-row--center"])}>
+        //...
+    </div>
+```
+
 ## Scripts
 
 Polymorphic variants for class names `./src/DSFR__ClassNames.res` (such as

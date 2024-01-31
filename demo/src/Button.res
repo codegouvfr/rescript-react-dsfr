@@ -30,7 +30,7 @@ let demo = {
       <Button className=Layout.base iconId={#"fr-icon-checkbox-circle-line"} priority=#secondary>
         {React.string("Secondary button - with icon")}
       </Button>
-      <Button className=Layout.base iconId={#"fr-icon-checkbox-circle-line"} priority=#tertiary>
+      <Button className=Layout.base iconId={#"ri-arrow-down-circle-line"} priority=#tertiary>
         {React.string("Tertiary button - with icon")}
       </Button>
       <Button className=Layout.base iconId=#"fr-icon-checkbox-circle-line" iconPosition=#right>

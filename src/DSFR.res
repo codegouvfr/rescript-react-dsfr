@@ -4,6 +4,12 @@ module ClassNames = DSFR__ClassNames
 
 module Commons = DSFR__Commons
 
+module Fr = {
+  let cx = (args: array<ClassNames.t>): string => {
+    args->Array.map(Commons.frClassNameToString)->Array.joinWith(" ")
+  }
+}
+
 module Accordion = DSFR__Accordion
 module AgentConnectButton = DSFR__AgentConnectButton
 module MonCompteProButton = DSFR__MonCompteProButton
