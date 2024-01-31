@@ -27,7 +27,7 @@ let toTest = [
 
 @react.component
 let make = () => {
-  <div className="fr-container">
+  <div className={DSFR.Fr.cx([#"fr-container"])}>
     <h1> {React.string("Demo - rescript-react-dsfr")} </h1>
     {toTest
     ->Array.map(c => <>

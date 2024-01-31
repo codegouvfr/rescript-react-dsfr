@@ -1,9 +1,9 @@
 open DSFR
 
 let demo = {
-  <div className="fr-col-12">
+  <div className={Fr.cx([#"fr-col-12"])}>
     <h2> {React.string("ButtonsGroup")} </h2>
-    <div className="fr-grid-row fr-grid-row--middle">
+    <div className={Fr.cx([#"fr-grid-row", #"fr-grid-row--center"])}>
       <ButtonsGroup
         buttons={[
           {

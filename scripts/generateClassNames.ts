@@ -12,10 +12,15 @@ fs.writeFileSync(
 *
 * @see the script \`generateClassNames.ts\`
 */
-type iconId = [
+type frIcon = [
 ${frIconClassNames.map((name) => `  | #"${name}"`).join("\n")}
+]
+
+type riIcon = [
 ${riIconClassNames.map((name) => `  | #"${name}"`).join("\n")}
 ]
+
+type iconId = [ frIcon | riIcon ]
 
 type calloutColorVariant = [
 ${frCoreClassNames
@@ -30,6 +35,12 @@ ${frCoreClassNames
     .map((name) => `  | #${name.substring(10)}`)
     .join("\n")}
 ]
+
+type core = [
+${frCoreClassNames.map((name) => `  | #"${name}"`).join("\n")}
+]
+
+type t =  [ core | iconId ]
 `
 );
 

@@ -58,3 +58,5 @@ module Headers = {
     buttonProps?: buttonProps,
   }
 }
+
+external frClassNameToString: DSFR__ClassNames.t => string = "%identity"
