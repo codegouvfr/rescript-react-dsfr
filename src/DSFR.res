@@ -6,7 +6,7 @@ module Commons = DSFR__Commons
 
 module Fr = {
   let cx = (args: array<ClassNames.t>): string => {
-    args->Array.map(Commons.frClassNameToString)->Array.joinWith(" ")
+    args->Commons.toArrayOfString->Js.Array2.joinWith(" ")
   }
 }
 

@@ -59,4 +59,4 @@ module Headers = {
   }
 }
 
-external frClassNameToString: DSFR__ClassNames.t => string = "%identity"
+external toArrayOfString: array<'a> => array<string> = "%identity"
